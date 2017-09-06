@@ -24,6 +24,10 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .slogan {
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
   font-style: italic;
