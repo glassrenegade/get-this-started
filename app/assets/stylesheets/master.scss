@@ -63,12 +63,16 @@
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
 }
 
+.modal {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+}
+
 header {
   border-top: 9px solid #222222;
 }
 
 hr {
-  clear: both;
+  clear:both;
 }
 
 h1 {
@@ -79,4 +83,19 @@ h1 {
 
 h2 {
   font-family: 'sf_archery_blackoblique', sans-serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'sf_archery_blackoblique', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+::selection {
+  background-color: #f84342;
 }
